@@ -31,7 +31,7 @@ local Settings = {
         ["Christmas Tier 3"] = false,
         ["Tier 18"] = false,
         ["Tier 17"] = false,
-        ["Triple Egg Open"] = true
+        ["Triple Egg Open"] = false
     },
     ["Auto Combine"] = {
         ["Enabled"] = false,
