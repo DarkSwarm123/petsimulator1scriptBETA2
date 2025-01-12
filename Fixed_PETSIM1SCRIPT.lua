@@ -241,7 +241,7 @@ EggTab:CreateToggle({
 })
 
 SettingsTab:CreateToggle({
-    Name = "Triple Egg Open",
+    Name = "Triple Egg Open (gamepass required)",
     CurrentValue = Settings["Auto Egg"]["Triple Egg Open"],
     Flag = "TripleEggToggle",
     Callback = function(Value)
