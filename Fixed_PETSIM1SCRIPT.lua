@@ -6,9 +6,9 @@ local Window = Rayfield:CreateWindow({
    LoadingTitle = "Auto Hatch",
    LoadingSubtitle = "by Dark",
    ConfigurationSaving = {
-      Enabled = false,
-      FolderName = nil,
-      FileName = nil
+      Enabled = true,
+      FolderName = "RayfieldGUIconfig",
+      FileName = "PETSIMULATOR1"
    },
    Discord = {
       Enabled = false,
@@ -296,3 +296,5 @@ game:GetService("Players").LocalPlayer.Idled:Connect(function()
     VirtualUser:ClickButton2(Vector2.new(0, 0))
     print("Anti-AFK: Zapobieganie rozłączeniu.")
 	end)
+
+Rayfield:LoadConfiguration()
